@@ -1,0 +1,68 @@
+body{
+    background-image: url('assets/bg-desktop.svg');
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+}
+
+
+.logo-text {
+    font-size:xx-large;
+}
+.row {
+    margin-top: 5%;
+    float: left;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-evenly
+
+}
+
+.hero-section-text {
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    left: 5%;
+    top: 30px;
+}
+h2{
+    font-size: 40px;
+}
+h6{
+    font-size: 20px;
+}
+#btnrequest{
+    background-color:white;
+    border-radius: 15px;
+    padding: 10px 35px;
+    color: hsl(257, 40%, 49%);
+}
+#btnrequest:hover {
+    background-color: hsl(300, 69%, 71%);
+   
+}
+
+   
+ion-icon:hover{
+        background-color: hsl(300, 69%, 71%) ;
+       
+}
+
+
+ .item.social > a {
+    font-size:20px;
+    width:36px;
+    height:36px;
+    line-height:36px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    box-shadow:0 0 0 1px hsl(300, 69%, 71%);
+    margin:0 8px;
+    color:black;
+    position: relative;
+    top:600px;
+  }
